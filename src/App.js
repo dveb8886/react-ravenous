@@ -4,7 +4,8 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import SearchBar from "./components/SearchBar";
 import TitleBar from "./components/TitleBar";
-// import { response } from './mock/yelpResponse';
+
+// GO TO https://cors-anywhere.herokuapp.com/corsdemo
 
 function App() {
   const [businesses, setBusinesses] = React.useState([])
